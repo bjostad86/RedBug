@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[ItemMaster]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)

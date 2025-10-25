@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <br/>
+    <div class="container text-center border-1">
+        <div class="row">
+            <div class="col" id="cAccounting">
+                @Html.ActionLink("Accounting", "Index", "Accounting", null, new {@class="btn btn-primary"})
+            </div>
+            <div class="col" id="cOrders">
+                <h4>Orders</h4>    
+            </div>
+            <div class="col" id="cShipping">
+                <h4>Shipping</h4>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="cPp">
+                <h4>Purchasing & Procurement</h4>    
+            </div>
+            <div class="col" id="cPf">
+                <h4>Planning & Forecasting</h4>    
+            </div>
+            <div class="col" id="cEdi">
+                <h4>EDI</h4>    
+            </div>
+        </div>
+    </div>
+</div>
