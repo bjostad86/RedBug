@@ -8,122 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/Accounting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/Controls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterFiles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/Security.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Controllers/Shipping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/AccountingContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/ChartOfAccounts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/Invoices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/InvoicesDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Controls/Accounting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Controls/ControlsContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Controls/Receiving.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Controls/Shipping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Global/GlobalContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Global/TranLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/CustomerMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/ItemMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/ItemStructureMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/LotMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/TableMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterFiles/VendorMaster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Orders/OrderComments.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Orders/OrderDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Orders/OrderHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Orders/OrderTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Orders/OrdersContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Security/Groups.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Security/Users.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/RedBug.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Accounting/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Controls/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Security/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Shipping/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBugDb/ItemMaster.sql" afterDir="false" />
-    </list>
+    <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bjostad86/RedBug.git",
+    "accountId": "1505baef-6082-453e-bfb0-4a2f514927ec"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57d616db882b441b8c50720b4477e03db2e200/71/b0641ed5/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/Accounting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -171,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/RedBug/Views/Shipping/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/ItemMaster.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -290,16 +182,48 @@
       <workItem from="1761188451266" duration="3635000" />
       <workItem from="1761219441408" duration="796000" />
       <workItem from="1761251883446" duration="4129000" />
-      <workItem from="1761362538171" duration="331000" />
+      <workItem from="1761362538171" duration="676000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1761362925799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761362925799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding remote">
+      <option name="closed" value="true" />
+      <created>1761363144709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761363144709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Adding remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding remote" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
