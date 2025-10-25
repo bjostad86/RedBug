@@ -11,22 +11,16 @@
             <div class="col col-sm border-dark" id="cAccounting">
                 <h4>Accounting</h4>
                 <p>
-                    Accounting Menus for perfoming functions regarding monetary transactions
+                    Accounting Menus for performing functions regarding monetary transactions
                 </p>
-                @Html.ActionLink("Billing", "Billing", "Menus", null, new { @class = "btn btn-primary" })
-                <br/>
-                @Html.ActionLink("Accounts Payable", "AccountsPayable", "Menus", null, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Menu", "Accounting", "Menus", null, new { @class = "btn btn-primary" })
             </div>
             <div class="col col-sm border-dark" id="cOrders">
                 <h4>Orders</h4>
                 <p>
                     Order menus listed such as Shipping, Manufacturing, Transfers, etc
                 </p>
-                @Html.ActionLink("Manufacturing", "Manufacturing", "Menus", null, new { @class = "btn btn-primary" })
-                <br/>
-                @Html.ActionLink("Production/Planning", "Production", "Menus", null, new { @class = "btn btn-primary" })
-                <br/>
-                @Html.ActionLink("Shipping", "Shipping", "Menus", null, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Menu", "Orders", "Menus", null, new { @class = "btn btn-primary" })
             </div>
             <div class="col col-sm border-dark" id="cReports">
                 <h4>Reports</h4>
@@ -34,9 +28,18 @@
                     Reports for viewing data within the system and for
                     many different parts of the application.
                 </p>
-                @Html.ActionLink("Reports", "Reports", "Menus", null, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Menu", "Reports", "Menus", null, new { @class = "btn btn-primary" })
+            </div>
+            <div class="col col-sm border-dark" id="cSecurity">
+                <h4>Security</h4>
+                <p>
+                    Security function menu for managing the security levels and users inside of 
+                    this system.
+                </p>
+                @Html.ActionLink("Menu", "Security", "Menus", null, new { @class = "btn btn-primary" })
             </div>
         </div>
+        <br/>
         <div class="row">
             <div class="col col-sm border-dark" id="cPp">
                 <h4>Purchasing & Procurement</h4>    
@@ -47,9 +50,21 @@
             </div>
             <div class="col col-sm border-dark" id="cPf">
                 <h4>Planning & Forecasting</h4>    
+                <p>
+                    Menus for production planning and forecasting for production.  
+                </p>
+                @Html.ActionLink("Menu", "PlanningForecasting", "Menus", null, new { @class = "btn btn-primary" })
             </div>
             <div class="col col-sm border-dark" id="cEdi">
-                <h4>EDI</h4>    
+                <h4>EDI</h4>
+                <p>
+                    Electronic Data Interchange, functionality for processing inbound and outbound transactions
+                    that will able to transmit data to trading partners and receive data from trading partners.
+                </p>
+                @Html.ActionLink("Menu", "Edi", "Menus", null, new { @class = "btn btn-primary" })
+            </div>
+            <div class="col col-sm border-dark" id="cBlank">
+                
             </div>
         </div>
     </div>

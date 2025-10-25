@@ -4,27 +4,12 @@ namespace RedBug.Controllers
 {
     public class Menus : Controller
     {
-        public IActionResult Billing()
+        public IActionResult Accounting()
         {
             return View();
         }
         
-        public IActionResult AccountsPayable()
-        {
-            return View();
-        }
-        
-        public IActionResult Manufacturing()
-        {
-            return View();
-        }
-        
-        public IActionResult Production()
-        {
-            return View();
-        }
-        
-        public IActionResult Shipping()
+        public IActionResult Orders()
         {
             return View();
         }
@@ -35,6 +20,21 @@ namespace RedBug.Controllers
         }
         
         public IActionResult PurchasingProcurement()
+        {
+            return View();
+        }
+        
+        public IActionResult PlanningForecasting()
+        {
+            return View();
+        }
+        
+        public IActionResult Security()
+        {
+            return View();
+        }
+        
+        public IActionResult Edi()
         {
             return View();
         }
