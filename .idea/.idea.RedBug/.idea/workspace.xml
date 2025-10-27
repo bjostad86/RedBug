@@ -8,11 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/Menus/Warehouse.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Home/Index.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +199,7 @@
       <workItem from="1761251883446" duration="4129000" />
       <workItem from="1761362538171" duration="4670000" />
       <workItem from="1761403627045" duration="5358000" />
-      <workItem from="1761494661511" duration="326000" />
+      <workItem from="1761494661511" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -245,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761416187753</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding warehouse menu">
+      <option name="closed" value="true" />
+      <created>1761495101223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761495101223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,8 @@
     <MESSAGE value="Adding workspace.xml" />
     <MESSAGE value="Adding Awesomefonts&#10;Adding multiple layers of Menus" />
     <MESSAGE value="Improving welcome page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving welcome page" />
+    <MESSAGE value="Adding warehouse menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding warehouse menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
