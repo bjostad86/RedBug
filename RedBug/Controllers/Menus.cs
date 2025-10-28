@@ -9,9 +9,9 @@ namespace RedBug.Controllers
             return View();
         }
         
-        public IActionResult Orders()
+        public IActionResult MasterRecords()
         {
-            return View();
+            return RedirectToAction("Index", "MasterRecords");
         }
         
         public IActionResult Reports()
@@ -35,6 +35,16 @@ namespace RedBug.Controllers
         }
         
         public IActionResult Edi()
+        {
+            return View();
+        }
+        
+        public IActionResult Warehouse()
+        {
+            return View();
+        }
+        
+        public IActionResult Index()
         {
             return View();
         }

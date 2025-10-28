@@ -16,11 +16,11 @@
                 @Html.ActionLink("Menu", "Accounting", "Menus", null, new { @class = "btn btn-primary" })
             </div>
             <div class="col col-sm border-dark" id="cOrders">
-                <h4>Orders</h4>
+                <h4>Master Records</h4>
                 <p>
-                    Order menus listed such as Shipping, Manufacturing, Transfers, etc
+                    These are the "master" record maintenance such as lots, customers, vendors, etc
                 </p>
-                @Html.ActionLink("Menu", "Orders", "Menus", null, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Menu", "Index", "MasterRecords", null, new { @class = "btn btn-primary" })
             </div>
             <div class="col col-sm border-dark" id="cReports">
                 <h4>Reports</h4>
