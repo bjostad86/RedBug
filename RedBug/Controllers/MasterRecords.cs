@@ -12,6 +12,8 @@ public class MasterRecords : Controller
     
     public IActionResult Vendors()
     {
-        return View();
+        // You can pass a model to the partial view if needed
+        // return PartialView("_MyPartialView", myModel);
+        return PartialView("Vendors");
     }
 }
