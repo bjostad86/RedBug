@@ -1,4 +1,5 @@
-@using RedBug.Models.MasterRecords;
+@using RedBug.Models.MasterRecords
+@model RedBug.Models.MasterRecords.MasterRecordsModel;
 @{
     ViewBag.Title = "Master Records Menu";
     Layout = "_LayoutSideMenu";
@@ -75,13 +76,13 @@
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
           <li>
-            <a href="#" class="nav-link link-dark">
+            <a class="nav-link link-dark" asp-area="" asp-controller="MasterRecords" asp-action="Lots">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
               Lots
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link link-dark">
+            <a class="nav-link link-dark" asp-area="" asp-controller="MasterRecords" asp-action="Items">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
               Items
             </a>
@@ -99,7 +100,7 @@
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
           <li>
-            <a href="#" class="nav-link link-dark">
+            <a class="nav-link link-dark" asp-area="" asp-controller="MasterRecords" asp-action="Customers">
               <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
               Customers
             </a>
@@ -146,11 +147,10 @@
     </div>
     <div class="col border-1 fa-border">
       <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Partial View Content</h5>
-          <p class="card-text">This content is loaded from a partial view using Bootstrap 5 styling.</p>
-          <button type="button" class="btn btn-outline-info">Learn More</button>
-        </div>
+        @if (Model.partialView != "")
+        {
+          <partial name="@Model.partialView" model="Model"/>
+        }
       </div>
     </div>
   </div>
