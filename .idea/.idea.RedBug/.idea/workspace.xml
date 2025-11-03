@@ -9,19 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Items.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Lots.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/RedBug.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/RedBug.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +31,12 @@
     &quot;assignee&quot;: &quot;bjostad86&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bjostad86/RedBug.git",
-    "accountId": "66044142-eb69-4f59-8bc3-c58fd58b078f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bjostad86/RedBug.git&quot;,
+    &quot;accountId&quot;: &quot;66044142-eb69-4f59-8bc3-c58fd58b078f&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/Accounting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/Controls.cs" root0="FORCE_HIGHLIGHTING" />
@@ -260,7 +251,8 @@
       <workItem from="1761861866707" duration="466000" />
       <workItem from="1761954677868" duration="984000" />
       <workItem from="1762005948280" duration="7975000" />
-      <workItem from="1762048580596" duration="9477000" />
+      <workItem from="1762048580596" duration="9764000" />
+      <workItem from="1762086617718" duration="7163000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -326,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761625898010</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding lots of models">
+      <option name="closed" value="true" />
+      <created>1762060671162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762060671163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +355,8 @@
     <MESSAGE value="Adding warehouse menu" />
     <MESSAGE value="updated a view" />
     <MESSAGE value="Manually adding bootstrap and getting it all to work properly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Manually adding bootstrap and getting it all to work properly." />
+    <MESSAGE value="Adding lots of models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding lots of models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

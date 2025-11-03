@@ -23,6 +23,16 @@ namespace RedBug.Controllers
             //send back the view
             return View("Index", model);
         }
+        
+        [HttpPost]
+        public IActionResult Vendors(MasterRecordsModel model, int id)
+        {
+            model.partialView = "Vendors";
+            model.partialVendors = new VendorMaster();
+
+            //send back the view
+            return View("Index", model);
+        }
 
         public IActionResult Lots(MasterRecordsModel model)
         {

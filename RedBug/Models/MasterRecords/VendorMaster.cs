@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +44,39 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "decimal(20, 2)")]
         public decimal? CurrentBalance { get; set; }
         
+        [Column(TypeName = "varchar(30)")]
+        public string? TaxID { get; set; }
         
+        [Column(TypeName = "varchar(15)")]
+        public string? PhoneNbr { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? ContactName { get; set; }
+        
+        [DisplayName("Minimum Order Amount")]
+        [Column(TypeName = "decimal(20, 2)")]
+        public decimal? MinimumOrderAmt { get; set; }
+        
+        [DisplayName("GL Account #")]
+        [Column(TypeName = "decimal(20, 2)")]
+        public decimal? GlAccountNbr { get; set; }
+        
+        [DisplayName("VAT Registration #")]
+        [Column(TypeName = "varchar(50)")]
+        public string? VatRegNbr { get; set; }
+        
+        [DisplayName("Default Carrier")]
+        [Column(TypeName = "varchar(50)")]
+        public string? DefaultCarrier { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? UserDef1 { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? UserDef2 { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? UserDef3 { get; set; }
     }
 
     [PrimaryKey(nameof(ID), nameof(VendorID))]
@@ -93,6 +126,12 @@ namespace RedBug.Models.MasterRecords
         
         [Column(TypeName = "varchar(20)")]
         public string? Duns { get; set; }
+        
+        [Column(TypeName = "varchar(15)")]
+        public string? PhoneNbr { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? ContactName { get; set; }
         
         [Column(TypeName = "varchar(4000)")]
         public string? Comments { get; set; }
