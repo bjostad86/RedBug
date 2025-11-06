@@ -1,10 +1,42 @@
+@model RedBug.Models.MasterRecords.VendorMaster
+
 <div class="card-body">
     <h5 class="card-title text-primary">Vendors</h5>
-    <div id="divVenInput">
-        <label>Vendor #</label>
-        
+    <div id="divVenInput" class="border-dark-subtle">
+        @using (Html.BeginForm("Vendors", "MasterRecords", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="col col-sm-1">
+                    <label class="form-label" style="vertical-align: middle">Vendor #:</label>
+                </div>
+                <div class="col col-sm-1">
+                    @Html.TextBoxFor(t => t.ID, "", new { @class = "form-control form-text" })
+                </div>
+                <div class="col col-sm-1">
+                    <button type="submit" class="form-control btn btn-primary" style="width:auto">
+                        <i class="fa fa-magnifying-glass"></i> Find
+                    </button>
+                </div>
+            </div>
+        }
     </div>
-    <p class="card-text">This content is loaded from a partial view using Bootstrap 5 styling.</p>
-    <button type="button" class="btn btn-outline-info">Learn More</button>
+    <br/>
+    <div id="divVenFields" class="border-dark-subtle">
+        <div class="d-table">
+            <div class="d-table-row row">
+                <div class="d-table-cell">
+                    <label class="form-label">Vendor Type</label>
+                    @* Put the dropdown here! *@
+                </div>
+                <div class="d-table-cell">
+                    <label class="form-label">Status</label>
+                    <select id="selStatus" asp-for="Status" class="form-control form-select">
+                        <option title="Active" value="A" class="dropdown-item">Active</option>
+                        <option title="Inactive" value="I" class="dropdown-item">Inactive</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 

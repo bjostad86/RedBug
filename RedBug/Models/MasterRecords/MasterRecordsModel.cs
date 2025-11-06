@@ -3,7 +3,8 @@ namespace RedBug.Models.MasterRecords
     public class MasterRecordsModel
     {
         public string partialView { get; set; }
-
+        public object partialModel { get; set; }
+        
         //child models
         public LotMaster partialLots { get; set; }
         public VendorMaster partialVendors { get; set; }

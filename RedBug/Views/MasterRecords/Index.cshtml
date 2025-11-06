@@ -153,9 +153,9 @@
     </div>
     <div class="col border-1 fa-border">
       <div class="card shadow-sm">
-        @if (Model.partialView != "")
+        @if (Model.partialView != "" && Model.partialModel != null)
         {
-          <partial name="@Model.partialView" model="Model"/>
+          <partial name="@Model.partialView" model="Model.partialModel"/>
         }
       </div>
     </div>
