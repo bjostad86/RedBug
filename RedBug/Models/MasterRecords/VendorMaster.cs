@@ -14,14 +14,17 @@ namespace RedBug.Models.MasterRecords
         public int ID { get; set; }
         
         [Required]
+        [DisplayName("Vendor Type")]
         [Column(TypeName = "int")]
         public int TypeID { get; set; }
         
         [Required]
+        [DisplayName("Name")]
         [Column(TypeName = "varchar(50)")]
         public string Name { get; set; }
         
         [Required]
+        [DisplayName("Status")]
         [Column(TypeName = "varchar(1)")]
         public string Status { get; set; }
         
@@ -35,21 +38,27 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "varchar(30)")]
         public string? UserChanged { get; set; }
         
+        [DisplayName("Terms")]
         [Column(TypeName = "varchar(5)")]
         public string? Terms { get; set; }
         
+        [DisplayName("Last PO #")]
         [Column(TypeName = "varchar(20)")]
         public string? LastPo { get; set; }
         
+        [DisplayName("Current Balance")]
         [Column(TypeName = "decimal(20, 2)")]
         public decimal? CurrentBalance { get; set; }
         
+        [DisplayName("Tax ID")]
         [Column(TypeName = "varchar(30)")]
         public string? TaxID { get; set; }
         
+        [DisplayName("Contact Phone #")]
         [Column(TypeName = "varchar(15)")]
         public string? PhoneNbr { get; set; }
         
+        [DisplayName("Contact Name")]
         [Column(TypeName = "varchar(50)")]
         public string? ContactName { get; set; }
         
@@ -69,12 +78,15 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "varchar(50)")]
         public string? DefaultCarrier { get; set; }
         
+        [DisplayName("User Defined 1")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef1 { get; set; }
         
+        [DisplayName("User Defined 2")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef2 { get; set; }
         
+        [DisplayName("User Defined 3")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef3 { get; set; }
     }

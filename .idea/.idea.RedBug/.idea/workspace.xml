@@ -10,11 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/RedBug.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/RedBug.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +31,12 @@
     &quot;assignee&quot;: &quot;bjostad86&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bjostad86/RedBug.git",
-    "accountId": "f7810ded-e2a3-404a-9ee7-bc84bd2d331b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bjostad86/RedBug.git&quot;,
+    &quot;accountId&quot;: &quot;f7810ded-e2a3-404a-9ee7-bc84bd2d331b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/25b69cb8544d447c89e4fb7d0ef551a11dc400/ee/dda0ea88/ResourceInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57d616db882b441b8c50720b4477e03db2e200/93/13b887fc/Type.cs" root0="FORCE_HIGHLIGHTING" />
@@ -269,7 +266,11 @@
       <workItem from="1762005948280" duration="7975000" />
       <workItem from="1762048580596" duration="9764000" />
       <workItem from="1762086617718" duration="7163000" />
-      <workItem from="1762378507637" duration="9937000" />
+      <workItem from="1762378507637" duration="10034000" />
+      <workItem from="1762433015457" duration="371000" />
+      <workItem from="1762450132059" duration="454000" />
+      <workItem from="1762574859132" duration="671000" />
+      <workItem from="1762614084767" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -351,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762317773495</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!">
+      <option name="closed" value="true" />
+      <created>1762402200453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762402200453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +391,8 @@
     <MESSAGE value="Manually adding bootstrap and getting it all to work properly." />
     <MESSAGE value="Adding lots of models" />
     <MESSAGE value="Adding more &quot;Master&quot; tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more &quot;Master&quot; tables" />
+    <MESSAGE value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

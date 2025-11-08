@@ -27,6 +27,42 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
+        [HttpPost]
+        public IActionResult SaveVendor(MasterRecordsModel model, FormCollection collection)
+        {
+            try
+            {
+                //lets save the data in the model to the database
+                
+                
+                
+                //send back the view
+                return View("Index", model);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+        
+        [HttpPost]
+        public IActionResult Vendors(MasterRecordsModel model, int id)
+        {
+            try
+            {
+                //load the model data from the database for the id passed
+                
+                //send back the view
+                return View("Index", model);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+        
         public IActionResult VendorAddresses(MasterRecordsModel model)
         {
             var pModel = new VendorAddress();
@@ -38,15 +74,6 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        [HttpPost]
-        public IActionResult Vendors(MasterRecordsModel model, int id)
-        {
-            
-
-            //send back the view
-            return View("Index", model);
-        }
-
         public IActionResult Lots(MasterRecordsModel model)
         {
             var pModel = new LotMaster();

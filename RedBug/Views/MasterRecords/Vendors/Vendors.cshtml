@@ -20,23 +20,132 @@
             </div>
         }
     </div>
-    <br/>
-    <div id="divVenFields" class="border-dark-subtle">
-        <div class="d-table">
-            <div class="d-table-row row">
-                <div class="d-table-cell">
-                    <label class="form-label">Vendor Type</label>
-                    @* Put the dropdown here! *@
-                </div>
-                <div class="d-table-cell">
-                    <label class="form-label">Status</label>
-                    <select id="selStatus" asp-for="Status" class="form-control form-select">
-                        <option title="Active" value="A" class="dropdown-item">Active</option>
-                        <option title="Inactive" value="I" class="dropdown-item">Inactive</option>
-                    </select>
-                </div>
-            </div>
+    <hr/>
+    @using (Html.BeginForm("SaveVendor", "MasterRecords", FormMethod.Post))
+    {
+        <div id="divVenFields" class="border-dark-subtle">
+            <table class="d-table">
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        <label class="form-label">Vendor Type</label>
+                    </td>
+                    <td class="d-table-cell">
+                        @* Put the dropdown here! *@
+                    </td>
+                    <td class="d-table-cell" rowspan="12">
+                        <div id="divVenPrimaryAddress">
+                            <h6>Primary Vendor Address</h6>
+                            <table class="d-table">
+                                <tr class="d-table-row">
+                                    <td>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        <label class="form-label">Status</label>
+                    </td>
+                    <td class="d-table-cell">
+                        <select id="selStatus" asp-for="Status" class="form-control form-select" title="Status">
+                            <option title="Active" value="A" class="dropdown-item">Active</option>
+                            <option title="Inactive" value="I" class="dropdown-item">Inactive</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.Terms)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.Terms, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.TaxID)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.TaxID, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.ContactName)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.ContactName, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.PhoneNbr)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.PhoneNbr, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.MinimumOrderAmt)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.MinimumOrderAmt, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.GlAccountNbr)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.GlAccountNbr, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.VatRegNbr)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.VatRegNbr, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.DefaultCarrier)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.DefaultCarrier, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.UserDef1)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.UserDef1, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.UserDef2)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.UserDef2, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.UserDef3)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.UserDef3, "", new { @class = "form-control form-text" })
+                    </td>
+                </tr>
+            </table>
         </div>
-    </div>
+    }
 </div>
 
