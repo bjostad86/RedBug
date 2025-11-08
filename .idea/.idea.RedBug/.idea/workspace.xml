@@ -10,7 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
     </list>
@@ -270,7 +269,8 @@
       <workItem from="1762433015457" duration="371000" />
       <workItem from="1762450132059" duration="454000" />
       <workItem from="1762574859132" duration="671000" />
-      <workItem from="1762614084767" duration="3357000" />
+      <workItem from="1762614084767" duration="3394000" />
+      <workItem from="1762640398092" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -360,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762402200453</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Getting the Vendor Master page built out.">
+      <option name="closed" value="true" />
+      <created>1762618290484</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762618290484</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +400,8 @@
     <MESSAGE value="Adding lots of models" />
     <MESSAGE value="Adding more &quot;Master&quot; tables" />
     <MESSAGE value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
+    <MESSAGE value="Getting the Vendor Master page built out." />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting the Vendor Master page built out." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

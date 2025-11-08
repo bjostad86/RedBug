@@ -89,6 +89,9 @@ namespace RedBug.Models.MasterRecords
         [DisplayName("User Defined 3")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef3 { get; set; }
+        
+        [NotMapped]
+        public VendorAddress address { get; set; }
     }
 
     [PrimaryKey(nameof(ID), nameof(VendorID))]
@@ -112,9 +115,11 @@ namespace RedBug.Models.MasterRecords
         public string Name { get; set; }
         
         [Required]
+        [DisplayName("Address")]
         [Column(TypeName = "varchar(50)")]
         public string Address1 { get; set; }
         
+        [DisplayName("Address 2")]
         [Column(TypeName = "varchar(50)")]
         public string? Address2 { get; set; }
         
@@ -127,6 +132,7 @@ namespace RedBug.Models.MasterRecords
         public string State { get; set; }
         
         [Required]
+        [DisplayName("Postal Code")]
         [Column(TypeName = "varchar(8)")]
         public string PostalCode { get; set; }
         
@@ -139,21 +145,26 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "varchar(20)")]
         public string? Duns { get; set; }
         
+        [DisplayName("Phone #")]
         [Column(TypeName = "varchar(15)")]
         public string? PhoneNbr { get; set; }
         
+        [DisplayName("Contact")]
         [Column(TypeName = "varchar(50)")]
         public string? ContactName { get; set; }
         
         [Column(TypeName = "varchar(4000)")]
         public string? Comments { get; set; }
         
+        [DisplayName("User Defined 1")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef1 { get; set; }
         
+        [DisplayName("User Defined 2")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef2 { get; set; }
         
+        [DisplayName("User Defined 3")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef3 { get; set; }
     }
