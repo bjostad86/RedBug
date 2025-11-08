@@ -20,3 +20,21 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.full-width-textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 5px; /* Optional: Add padding to the textarea itself */
+    resize: vertical; /* Allow vertical resizing, or 'none' to disable */
+}
+
+.txtarea {
+    display:block;
+    width:99%;
+    padding:0.5%;
+    margin:0;
+    border:1px solid #f0f040;
+    background-color:#fffff0;
+    overflow:auto;
+}

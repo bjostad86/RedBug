@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,23 +1,27 @@
 @model RedBug.Models.MasterRecords.VendorMaster
-
+@{
+    
+}
 <div class="card-body">
     <h5 class="card-title text-primary">Vendors</h5>
     <div id="divVenInput" class="border-dark-subtle">
         @using (Html.BeginForm("Vendors", "MasterRecords", FormMethod.Post))
         {
-            <div class="row">
-                <div class="col col-sm-1">
-                    <label class="form-label" style="vertical-align: middle">Vendor #:</label>
-                </div>
-                <div class="col col-sm-1">
-                    @Html.TextBoxFor(t => t.ID, "", new { @class = "form-control form-text" })
-                </div>
-                <div class="col col-sm-1">
-                    <button type="submit" class="form-control btn btn-primary" style="width:auto">
-                        <i class="fa fa-magnifying-glass"></i> Find
-                    </button>
-                </div>
-            </div>
+            <table class="d-table">
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.ID)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(t => t.ID, "", new { @class = "form-control form-text", @style="width: 35%" })
+                    </td>
+                    <td class="d-table-cell">
+                        <button type="submit" class="form-control btn btn-primary" style="width:auto">
+                            <i class="fa fa-magnifying-glass"></i> Find
+                        </button>
+                    </td>
+                </tr>
+            </table>
         }
     </div>
     <hr/>
@@ -32,16 +36,23 @@
                     <td class="d-table-cell">
                         @* Put the dropdown here! *@
                     </td>
-                    <td class="d-table-cell" rowspan="12">
-                        <div id="divVenPrimaryAddress">
-                            <h6>Primary Vendor Address</h6>
-                            <table class="d-table border-light-subtle">
+                    <td class="d-table-cell" rowspan="12" style="vertical-align: top">
+                        <div id="divVenPrimaryAddress" class="border border-1 border-light-subtle align-top align-text-top" style="padding: 2px">
+                            <h6>Address</h6>
+                            @Html.HiddenFor(h => h.address.Primary, new { @Value = true})
+                            <table class="d-table">
                                 <tr class="d-table-row">
                                     <td class="d-table-cell">
                                         @Html.DisplayNameFor(x => x.address.Name)
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.Name, "", new { @class = "form-control form-text" })
+                                    </td>
+                                    <td class="d-table-cell">
+                                        @Html.DisplayNameFor(x => x.address.ContactName)
+                                    </td>
+                                    <td class="d-table-cell">
+                                        @Html.TextBoxFor(x => x.address.ContactName, "", new { @class = "form-control form-text" })
                                     </td>
                                 </tr>
                                 <tr class="d-table-row">
@@ -51,6 +62,12 @@
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.Address1, "", new { @class = "form-control form-text" })
                                     </td>
+                                    <td class="d-table-cell">
+                                        @Html.DisplayNameFor(x => x.address.PhoneNbr)
+                                    </td>
+                                    <td class="d-table-cell">
+                                        @Html.TextBoxFor(x => x.address.PhoneNbr, "", new { @class = "form-control form-text" })
+                                    </td>
                                 </tr>
                                 <tr class="d-table-row">
                                     <td class="d-table-cell">
@@ -59,6 +76,9 @@
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.Address2, "", new { @class = "form-control form-text" })
                                     </td>
+                                    <td class="d-table-cell" colspan="2">
+                                        @Html.DisplayNameFor(x => x.address.Comments)
+                                    </td>
                                 </tr>
                                 <tr class="d-table-row">
                                     <td class="d-table-cell">
@@ -66,6 +86,11 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.City, "", new { @class = "form-control form-text" })
+                                    </td>
+                                    <td class="d-table-cell" colspan="2" rowspan="4">
+                                        <div class="container">
+                                            @Html.TextAreaFor(x => x.address.Comments, new { @class = "form-control txtarea" })
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr class="d-table-row">
@@ -82,6 +107,22 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.PostalCode, "", new { @class = "form-control form-text" })
+                                    </td>
+                                </tr>
+                                <tr class="d-table-row">
+                                    <td class="d-table-cell">
+                                        @Html.DisplayNameFor(x => x.address.Country)
+                                    </td>
+                                    <td class="d-table-cell">
+                                        @Html.TextBoxFor(x => x.address.Country, "", new { @class = "form-control form-text" })
+                                    </td>
+                                </tr>
+                                <tr class="d-table-row">
+                                    <td class="d-table-cell">
+                                        @Html.DisplayNameFor(x => x.address.Duns)
+                                    </td>
+                                    <td class="d-table-cell">
+                                        @Html.TextBoxFor(x => x.address.Duns, "", new { @class = "form-control form-text" })
                                     </td>
                                 </tr>
                             </table>
@@ -104,7 +145,7 @@
                         @Html.DisplayNameFor(x => x.Terms)
                     </td>
                     <td class="d-table-cell">
-                        @Html.TextBoxFor(x => x.Terms, "", new { @class = "form-control form-text" })
+                        @Html.TextBoxFor(x => x.Terms, "", new { @class = "form-control form-text", @style="width: 45%" })
                     </td>
                 </tr>
                 <tr class="d-table-row">

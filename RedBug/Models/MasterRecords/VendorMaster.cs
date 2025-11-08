@@ -9,6 +9,7 @@ namespace RedBug.Models.MasterRecords
     public class VendorMaster
     {
         [Required]
+        [DisplayName("Vendor #")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column(TypeName = "int")]
         public int ID { get; set; }
@@ -142,6 +143,7 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "bit")]
         public bool? Primary { get; set; }
         
+        [DisplayName("DUNS")]
         [Column(TypeName = "varchar(20)")]
         public string? Duns { get; set; }
         
