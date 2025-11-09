@@ -3,7 +3,7 @@
     
 }
 <div class="card-body">
-    <h5 class="card-title text-primary">Vendors</h5>
+    <h4 class="card-title text-primary">Vendors</h4>
     <div id="divVenInput" class="border-dark-subtle">
         @using (Html.BeginForm("Vendors", "MasterRecords", FormMethod.Post))
         {
@@ -36,9 +36,9 @@
                     <td class="d-table-cell">
                         @* Put the dropdown here! *@
                     </td>
-                    <td class="d-table-cell" rowspan="12" style="vertical-align: top">
-                        <div id="divVenPrimaryAddress" class="border border-1 border-light-subtle align-top align-text-top" style="padding: 2px">
-                            <h6>Address</h6>
+                    <td class="d-table-cell" rowspan="12" style="vertical-align: top; padding-left: 10px;">
+                        <div id="divVenPrimaryAddress" class="border border-1 border-light-subtle align-top align-text-top" style="padding-left: 6px;">
+                            <h5>Primary Address</h5>
                             @Html.HiddenFor(h => h.address.Primary, new { @Value = true})
                             <table class="d-table">
                                 <tr class="d-table-row">
@@ -87,9 +87,9 @@
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.City, "", new { @class = "form-control form-text" })
                                     </td>
-                                    <td class="d-table-cell" colspan="2" rowspan="4">
-                                        <div class="container">
-                                            @Html.TextAreaFor(x => x.address.Comments, new { @class = "form-control txtarea" })
+                                    <td class="d-table-cell" colspan="2" rowspan="4" style="vertical-align: top">
+                                        <div class="container" style="vertical-align: top">
+                                            @Html.TextAreaFor(x => x.address.Comments, new { @class = "form-control form-text", rows="6" })
                                         </div>
                                     </td>
                                 </tr>

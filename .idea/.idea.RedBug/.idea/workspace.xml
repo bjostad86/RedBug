@@ -10,9 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,6 +271,12 @@
       <workItem from="1762574859132" duration="671000" />
       <workItem from="1762614084767" duration="3394000" />
       <workItem from="1762640398092" duration="1345000" />
+      <workItem from="1762648389305" duration="104000" />
+      <workItem from="1762648528391" duration="66000" />
+      <workItem from="1762653834143" duration="424000" />
+      <workItem from="1762661856216" duration="15000" />
+      <workItem from="1762661936378" duration="51000" />
+      <workItem from="1762664876080" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -369,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762618290484</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding more fields to Vendor main page.">
+      <option name="closed" value="true" />
+      <created>1762645013271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762645013271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +415,8 @@
     <MESSAGE value="Adding more &quot;Master&quot; tables" />
     <MESSAGE value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
     <MESSAGE value="Getting the Vendor Master page built out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting the Vendor Master page built out." />
+    <MESSAGE value="Adding more fields to Vendor main page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more fields to Vendor main page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
