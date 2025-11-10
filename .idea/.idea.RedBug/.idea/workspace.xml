@@ -10,8 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/bjostad86/RedBug.git&quot;,
-    &quot;accountId&quot;: &quot;f7810ded-e2a3-404a-9ee7-bc84bd2d331b&quot;
+    &quot;accountId&quot;: &quot;5a954f48-fa02-4156-b547-3260ee1d0302&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -276,7 +274,9 @@
       <workItem from="1762653834143" duration="424000" />
       <workItem from="1762661856216" duration="15000" />
       <workItem from="1762661936378" duration="51000" />
-      <workItem from="1762664876080" duration="2398000" />
+      <workItem from="1762664876080" duration="2517000" />
+      <workItem from="1762722919389" duration="119000" />
+      <workItem from="1762727632714" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -382,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762645013271</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Small update to Vendor page">
+      <option name="closed" value="true" />
+      <created>1762667329747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762667329747</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +424,8 @@
     <MESSAGE value="Figured out how to dynamically load my partial models on section currently working on.&#10;&#10;CSS really stinks!" />
     <MESSAGE value="Getting the Vendor Master page built out." />
     <MESSAGE value="Adding more fields to Vendor main page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more fields to Vendor main page." />
+    <MESSAGE value="Small update to Vendor page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update to Vendor page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
