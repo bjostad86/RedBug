@@ -10,6 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +278,9 @@
       <workItem from="1762661936378" duration="51000" />
       <workItem from="1762664876080" duration="2517000" />
       <workItem from="1762722919389" duration="119000" />
-      <workItem from="1762727632714" duration="1152000" />
+      <workItem from="1762727632714" duration="1188000" />
+      <workItem from="1762746310112" duration="1663000" />
+      <workItem from="1762784551881" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -390,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762667329747</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding buttons!">
+      <option name="closed" value="true" />
+      <created>1762742916016</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762742916016</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +437,8 @@
     <MESSAGE value="Getting the Vendor Master page built out." />
     <MESSAGE value="Adding more fields to Vendor main page." />
     <MESSAGE value="Small update to Vendor page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update to Vendor page" />
+    <MESSAGE value="Adding buttons!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding buttons!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,6 +455,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" containingFunctionPresentation="Method 'SaveVendor'">
+            <startOffsets>
+              <option value="902" />
+            </startOffsets>
+            <endOffsets>
+              <option value="926" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

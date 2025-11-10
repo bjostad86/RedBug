@@ -28,16 +28,19 @@ namespace RedBug.Controllers
         }
         
         [HttpPost]
-        public IActionResult SaveVendor(MasterRecordsModel model, FormCollection collection)
+        public IActionResult SaveVendor(MasterRecordsModel model, IFormCollection collection)
         {
             try
             {
-                //lets save the data in the model to the database
-                
-                
+                if (!ModelState.IsValid)
+                {
+                    //lets save the data in the model to the database
+
+
+                }
                 
                 //send back the view
-                return View("Index", model);
+                return RedirectToAction("Index", "MasterRecords", model);
             }
             catch (Exception e)
             {
