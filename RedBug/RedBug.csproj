@@ -9,7 +9,6 @@
     <ItemGroup>
       <Folder Include="Models\Receiving\" />
       <Folder Include="Models\Shipping\" />
-      <Folder Include="Repository\" />
       <Folder Include="Views\Receiving\" />
     </ItemGroup>
 

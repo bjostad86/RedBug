@@ -47,7 +47,7 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.Name, "", new { @class = "form-control form-text" })
-                                        @Html.ValidationMessageFor(x => x.address.Name)
+                                        @Html.ValidationMessageFor(x => x.address.Name, "", new {@style="color: red;"})
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.DisplayNameFor(x => x.address.ContactName)
@@ -62,7 +62,7 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.Address1, "", new { @class = "form-control form-text" })
-                                        @Html.ValidationMessageFor(x => x.address.Address1)
+                                        @Html.ValidationMessageFor(x => x.address.Address1, "", new {@style="color: red;"})
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.DisplayNameFor(x => x.address.PhoneNbr)
@@ -88,7 +88,7 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.City, "", new { @class = "form-control form-text" })
-                                        @Html.ValidationMessageFor(x => x.address.City)
+                                        @Html.ValidationMessageFor(x => x.address.City, "", new {@style="color: red;"})
                                     </td>
                                     <td class="d-table-cell" colspan="2" rowspan="4" style="vertical-align: top">
                                         <div class="container" style="vertical-align: top">
@@ -102,7 +102,7 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.State, "", new { @class = "form-control form-text" })
-                                        @Html.ValidationMessageFor(x => x.address.State)
+                                        @Html.ValidationMessageFor(x => x.address.State, "", new {@style="color: red;"})
                                     </td>
                                 </tr>
                                 <tr class="d-table-row">
@@ -111,7 +111,7 @@
                                     </td>
                                     <td class="d-table-cell">
                                         @Html.TextBoxFor(x => x.address.PostalCode, "", new { @class = "form-control form-text" })
-                                        @Html.ValidationMessageFor(x => x.address.PostalCode)
+                                        @Html.ValidationMessageFor(x => x.address.PostalCode, "", new {@style="color: red;"})
                                     </td>
                                 </tr>
                                 <tr class="d-table-row">
@@ -143,6 +143,15 @@
                             <option title="Active" value="A" class="dropdown-item">Active</option>
                             <option title="Inactive" value="I" class="dropdown-item">Inactive</option>
                         </select>
+                    </td>
+                </tr>
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.Name)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(x => x.Name, "", new { @class = "form-control form-text" })
+                        @Html.ValidationMessageFor(x => x.Name, "", new {@style="color: red;"})
                     </td>
                 </tr>
                 <tr class="d-table-row">
@@ -179,10 +188,10 @@
                 </tr>
                 <tr class="d-table-row">
                     <td class="d-table-cell">
-                        @Html.DisplayNameFor(x => x.MinimumOrderAmt)
+                        @Html.DisplayNameFor(x => x.MinOrderAmt)
                     </td>
                     <td class="d-table-cell">
-                        @Html.TextBoxFor(x => x.MinimumOrderAmt, "", new { @class = "form-control form-text" })
+                        @Html.TextBoxFor(x => x.MinOrderAmt, "", new { @class = "form-control form-text" })
                     </td>
                 </tr>
                 <tr class="d-table-row">
@@ -237,9 +246,6 @@
         </div>
         <hr/>
         <div>
-            <!--Put validation messages here!-->
-            @Html.ValidationSummary()
-            
             <button type="submit" class="form-control btn btn-success" style="width:auto">
                 <i class="fa fa-save"></i> Save
             </button>

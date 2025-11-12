@@ -1,9 +1,31 @@
+@model RedBug.Models.MasterRecords.CustomerMaster
+@{
+    
+}
 <div class="card-body">
-    <h5 class="card-title text-primary">Customers</h5>
-    <div id="divCustInput">
-        <label>Customer #</label>
+    <h4 class="card-title text-primary">Customers</h4>
+    <div id="divCustInput" class="border-dark-subtle">
+        @using (Html.BeginForm("Customers", "MasterRecords", FormMethod.Post))
+        {
+            <table class="d-table">
+                <tr class="d-table-row">
+                    <td class="d-table-cell">
+                        @Html.DisplayNameFor(x => x.ID)
+                    </td>
+                    <td class="d-table-cell">
+                        @Html.TextBoxFor(t => t.ID, "", new { @class = "form-control form-text", @style="width: 35%" })
+                    </td>
+                    <td class="d-table-cell">
+                        <button type="submit" class="form-control btn btn-primary" style="width:auto">
+                            <i class="fa fa-magnifying-glass"></i> Find
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+    <hr/>
+    <div>
         
     </div>
-    <p class="card-text">This content is loaded from a partial view using Bootstrap 5 styling.</p>
-    <button type="button" class="btn btn-outline-info">Learn More</button>
 </div>

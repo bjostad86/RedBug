@@ -28,19 +28,36 @@ namespace RedBug.Controllers
         }
         
         [HttpPost]
-        public IActionResult SaveVendor(MasterRecordsModel model, IFormCollection collection)
+        public IActionResult SaveVendor(VendorMaster model, IFormCollection collection)
         {
             try
             {
-                if (!ModelState.IsValid)
+                var mrModel = new MasterRecordsModel();
+                
+                if (ModelState.IsValid == false)
                 {
                     //lets save the data in the model to the database
-
-
+                    mrModel.partialView = "Vendors/Vendors";
+                    mrModel.partialModel = model;
+                    mrModel.partialVendors = model;
+                    
+                    return View("Index", mrModel);
                 }
-                
-                //send back the view
-                return RedirectToAction("Index", "MasterRecords", model);
+                else
+                {
+                    //lets save the data from the page to the database
+                    
+                    
+                    //now it's time to go back to the beginning of the Vendor page
+                    
+                    var pModel = new VendorMaster();
+                    mrModel.partialView = "Vendors/Vendors";
+                    mrModel.partialModel = pModel;
+                    mrModel.partialVendors = pModel;
+                    
+                    //send back the view
+                    return RedirectToAction("Index", "MasterRecords", mrModel);    
+                }
             }
             catch (Exception e)
             {

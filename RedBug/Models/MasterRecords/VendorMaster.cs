@@ -25,7 +25,6 @@ namespace RedBug.Models.MasterRecords
         public string Name { get; set; }
         
         [Required]
-        [DisplayName("Status")]
         [Column(TypeName = "varchar(1)")]
         public string Status { get; set; }
         
@@ -65,7 +64,7 @@ namespace RedBug.Models.MasterRecords
         
         [DisplayName("Minimum Order Amount")]
         [Column(TypeName = "decimal(20, 2)")]
-        public decimal? MinimumOrderAmt { get; set; }
+        public decimal? MinOrderAmt { get; set; }
         
         [DisplayName("GL Account #")]
         [Column(TypeName = "decimal(20, 2)")]
