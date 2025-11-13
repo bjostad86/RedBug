@@ -7,7 +7,7 @@ namespace RedBug.Controllers
     {
         public IActionResult Index()
         {
-            var model = new MasterRecordsModel
+            var model = new Models.MasterRecords.MasterRecords
             {
                 partialView = "",
                 partialModel = null
@@ -16,9 +16,9 @@ namespace RedBug.Controllers
             return View(model);
         }
 
-        public IActionResult Vendors(MasterRecordsModel model)
+        public IActionResult Vendors(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new VendorMaster();
+            var pModel = new Vendors();
             model.partialView = "Vendors/Vendors";
             model.partialModel = pModel;
             model.partialVendors = pModel;
@@ -28,11 +28,11 @@ namespace RedBug.Controllers
         }
         
         [HttpPost]
-        public IActionResult SaveVendor(VendorMaster model, IFormCollection collection)
+        public IActionResult SaveVendor(Vendors model, IFormCollection collection)
         {
             try
             {
-                var mrModel = new MasterRecordsModel();
+                var mrModel = new Models.MasterRecords.MasterRecords();
                 
                 if (ModelState.IsValid == false)
                 {
@@ -50,7 +50,7 @@ namespace RedBug.Controllers
                     
                     //now it's time to go back to the beginning of the Vendor page
                     
-                    var pModel = new VendorMaster();
+                    var pModel = new Vendors();
                     mrModel.partialView = "Vendors/Vendors";
                     mrModel.partialModel = pModel;
                     mrModel.partialVendors = pModel;
@@ -67,7 +67,7 @@ namespace RedBug.Controllers
         }
         
         [HttpPost]
-        public IActionResult Vendors(MasterRecordsModel model, int id)
+        public IActionResult Vendors(Models.MasterRecords.MasterRecords model, int id)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace RedBug.Controllers
             }
         }
         
-        public IActionResult VendorAddresses(MasterRecordsModel model)
+        public IActionResult VendorAddresses(Models.MasterRecords.MasterRecords model)
         {
             var pModel = new VendorAddress();
             model.partialView = "Vendors/Addresses";
@@ -94,9 +94,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult Lots(MasterRecordsModel model)
+        public IActionResult Lots(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new LotMaster();
+            var pModel = new Lots();
             model.partialView = "Inventory/Lots";
             model.partialModel = pModel;
             model.partialLots = pModel;
@@ -105,9 +105,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
 
-        public IActionResult Customers(MasterRecordsModel model)
+        public IActionResult Customers(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new CustomerMaster();
+            var pModel = new Customers();
             model.partialView = "Customers/Customers";
             model.partialModel = pModel;
             model.partialCustomers = pModel;
@@ -116,9 +116,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult CustomerAddresses(MasterRecordsModel model)
+        public IActionResult CustomerAddresses(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new CustomerMaster();
+            var pModel = new Customers();
             model.partialView = "Customers/Addresses";
             model.partialModel = pModel;
             model.partialCustomers = pModel;
@@ -127,9 +127,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
 
-        public IActionResult Items(MasterRecordsModel model)
+        public IActionResult Items(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new ItemMaster();
+            var pModel = new Items();
             model.partialView = "Inventory/Items";
             model.partialModel = pModel;
             model.partialItems = pModel;
@@ -138,9 +138,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult ItemStructure(MasterRecordsModel model)
+        public IActionResult ItemStructure(Models.MasterRecords.MasterRecords model)
         {
-            var pModel = new ItemStructureMaster();
+            var pModel = new ItemStructures();
             model.partialView = "Inventory/ItemStructure";
             model.partialModel = pModel;
             model.partialItemStuctures = pModel;

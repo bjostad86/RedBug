@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace RedBug.Models.MasterRecords
 {
     [PrimaryKey(nameof(ID))]
-    public class VendorMaster
+    public class Vendors
     {
         [Required]
         [DisplayName("Vendor #")]
@@ -29,13 +29,18 @@ namespace RedBug.Models.MasterRecords
         public string Status { get; set; }
         
         [Required]
+        [DisplayName("Division")]
+        [Column(TypeName = "int")]
+        public int DivisionID { get; set; }
+        
+        [Required]
         [Column(TypeName = "datetime")]
         public DateTime DateAdded { get; set; }
         
         [Column(TypeName = "datetime")]
         public DateTime? DateChanged { get; set; }
         
-        [Column(TypeName = "varchar(30)")]
+        [Column(TypeName = "varchar(50)")]
         public string? UserChanged { get; set; }
         
         [DisplayName("Terms")]
@@ -89,6 +94,12 @@ namespace RedBug.Models.MasterRecords
         [DisplayName("User Defined 3")]
         [Column(TypeName = "varchar(50)")]
         public string? UserDef3 { get; set; }
+        
+        [Column(TypeName = "varchar(50)")]
+        public string? RecordLockedUser { get; set; }
+        
+        [Column(TypeName = "datetime")]
+        public DateTime? RecordLockedTime { get; set; }
         
         [NotMapped]
         public VendorAddress address { get; set; }
@@ -171,7 +182,7 @@ namespace RedBug.Models.MasterRecords
     }
 
     [PrimaryKey(nameof(ID))]
-    public class VendorType
+    public class VendorTypes
     {
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

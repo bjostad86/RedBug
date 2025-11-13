@@ -1,6 +1,6 @@
 namespace RedBug.Models.MasterRecords
 {
-    public class ItemStructureMaster
+    public class Lots
     {
 
     }
