@@ -9,22 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/Global/Controls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Customers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Divisions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/PaymentMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/PriceCodes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBug/Models/Controls/TableLocks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/CustomerMaster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/ItemMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Items.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/ItemStructureMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/ItemStructures.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/LotMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Lots.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/VendorMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Vendors.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers/Customers.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers/Customers.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/PriceGroups.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/Accounting/PriceGroups.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Items.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Items.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Vendors/Vendors.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +53,11 @@
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/ChartOfAccounts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/Invoices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/InvoicesDetail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/PriceCodes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/PriceGroups.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/ControlsContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/Currencies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/TableLocks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Global/Controls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Models/Global/GlobalContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -294,7 +289,13 @@
       <workItem from="1762920741045" duration="5097000" />
       <workItem from="1762983690201" duration="422000" />
       <workItem from="1762994268939" duration="1959000" />
-      <workItem from="1763007249659" duration="3230000" />
+      <workItem from="1763007249659" duration="3454000" />
+      <workItem from="1763073546848" duration="3048000" />
+      <workItem from="1763095788799" duration="379000" />
+      <workItem from="1763155286407" duration="420000" />
+      <workItem from="1763326224731" duration="11000" />
+      <workItem from="1763326302676" duration="4596000" />
+      <workItem from="1763343186077" duration="5149000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -432,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762926085176</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adding more Models and thinking through how to &quot;record lock&quot; records in tables when updating.">
+      <option name="closed" value="true" />
+      <created>1763010693611</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1763010693611</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +479,8 @@
     <MESSAGE value="Adding buttons!" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Starting to add the bits for customers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting to add the bits for customers" />
+    <MESSAGE value="Adding more Models and thinking through how to &quot;record lock&quot; records in tables when updating." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more Models and thinking through how to &quot;record lock&quot; records in tables when updating." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

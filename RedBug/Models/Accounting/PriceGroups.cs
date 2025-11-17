@@ -9,7 +9,7 @@ namespace RedBug.Models.Accounting
     public class PriceGroups
     {
         [Required]
-        [DisplayName("Customer #")]
+        [DisplayName("Price Group ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column(TypeName = "int")]
         public int ID { get; set; }
@@ -18,5 +18,10 @@ namespace RedBug.Models.Accounting
         [DisplayName("Name")]
         [Column(TypeName = "varchar(50)")]
         public string Name { get; set; }
+        
+        [Required]
+        [DisplayName("Price Code")]
+        [Column(TypeName = "varchar(25)")]
+        public string PriceCode { get; set; }
     }
 }

@@ -15,16 +15,16 @@ namespace RedBug.Models.MasterRecords
         
         [Required]
         [DisplayName("Item Type")]
-        [Column(TypeName = "int")]
-        public int TypeID { get; set; }
+        [Column(TypeName = "varchar(25)")]
+        public string Type { get; set; }
         
         [Required]
         [DisplayName("Name")]
         [Column(TypeName = "varchar(50)")]
-        public string Name { get; set; }
+        public string Description { get; set; }
         
         [Column(TypeName = "varchar(500)")]
-        public string? Description { get; set; }
+        public string? DescriptionExtended { get; set; }
         
         [Required]
         [Column(TypeName = "varchar(1)")]
@@ -35,28 +35,37 @@ namespace RedBug.Models.MasterRecords
         [Column(TypeName = "int")]
         public int DivisionID { get; set; }
         
+        [Column(TypeName = "varchar(25)")]
+        public string? GlAccount { get; set; }
         
+        [Column(TypeName = "varchar(14)")]
+        public string? GTIN { get; set; }
         
+        [Column(TypeName = "varchar(12)")]
+        public string? UPC { get; set; }
         
+        [Column(TypeName = "decimal(12,4)")]
+        public decimal? Weight { get; set; }
         
+        [Required]
+        [DisplayName("Unit of Measure")]
+        [Column(TypeName = "varchar(3)")]
+        public string Uom { get; set; }
         
-        [Column(TypeName = "varchar(50)")]
-        public string? RecordLockedUser { get; set; }
-        
-        [Column(TypeName = "datetime")]
-        public DateTime? RecordLockedTime { get; set; }
+        [DisplayName("Price Code")]
+        [Column(TypeName = "varchar(25)")]
+        public string? PriceCode { get; set; }
     }
     
-    [PrimaryKey(nameof(ID))]
+    [PrimaryKey(nameof(SID))]
     public class ItemTypes
     {
         [Required]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column(TypeName = "int")]
-        public int ID { get; set; }
+        [Column(TypeName = "varchar(25)")]
+        public string SID { get; set; }
         
         [Required]
-        [Column(TypeName = "varchar(25)")]
-        public string Type { get; set; }
+        [Column(TypeName = "varchar(150)")]
+        public string Description { get; set; }
     }
 }
