@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace RedBug.Models.MasterRecords
+namespace RedBug.Models.Procurement
 {
     [PrimaryKey(nameof(ID))]
     public class Vendors

@@ -7,8 +7,6 @@ namespace RedBug.Models.MasterRecords
         
         //child models
         public Lots partialLots { get; set; }
-        public Vendors partialVendors { get; set; }
-        public VendorAddress partialVendorAddresses { get; set; }
         public Customers partialCustomers { get; set; }
         public CustomerAddress partialCustomerAddress { get; set; }
         public Items partialItems { get; set; }

@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RedBug.Controllers
 {
-    public class Menus : Controller
+    public class MenusController : Controller
     {
         public IActionResult Accounting()
         {

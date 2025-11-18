@@ -73,4 +73,9 @@
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\LICENSE" />
     </ItemGroup>
 
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Procurement\Vendors\Addresses.cshtml" />
+      <AdditionalFiles Include="Views\Procurement\Vendors\Vendors.cshtml" />
+    </ItemGroup>
+
 </Project>
