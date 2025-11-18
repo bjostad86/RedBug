@@ -2,10 +2,11 @@
 @{
     
 }
+
 <div class="card-body">
     <h4 class="card-title text-primary">Vendors</h4>
     <div id="divVenInput" class="border-dark-subtle">
-        @using (Html.BeginForm("Vendors", "MasterRecords", FormMethod.Post))
+        @using (Html.BeginForm("Vendors", "Procurement", FormMethod.Post))
         {
             <table class="d-table">
                 <tr class="d-table-row">
@@ -25,7 +26,7 @@
         }
     </div>
     <hr/>
-    @using (Html.BeginForm("SaveVendor", "MasterRecords", FormMethod.Post))
+    @using (Html.BeginForm("SaveVendor", "Procurement", FormMethod.Post))
     {
         <div id="divVenFields" class="border-dark-subtle">
             <table class="d-table">

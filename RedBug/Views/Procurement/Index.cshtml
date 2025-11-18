@@ -1,5 +1,5 @@
 @using RedBug.Models.Procurement
-@model Structures
+@model Main
 @{
     ViewBag.Title = "Procurement";
     Layout = "_LayoutSideMenu";
@@ -9,23 +9,11 @@
     <div class="row">
         <div class="col-sm-2 border-1 fa-border">
             <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
-                <ul id="listInventory" class="nav nav-pills flex-column mb-auto">
+                <ul id="listOrders" class="nav nav-pills flex-column mb-auto">
                     <li>
                         <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="PurchaseOrders">
                             <span class="fa fa-barcode"></span>
                             Purchase Orders
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="Items">
-                            <span class="fa fa-boxes"></span>
-                            Items
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="ItemStructure">
-                            <span class="fa fa-building"></span>
-                            Item Structures
                         </a>
                     </li>
                 </ul>
@@ -34,6 +22,12 @@
                         <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="Vendors">
                             <span class="fa fa-money-bill"></span>
                             Vendors
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="VendorTypes">
+                            <span class="fa fa-wrench"></span>
+                            Vendor Types
                         </a>
                     </li>
                 </ul>
