@@ -28,6 +28,17 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
+        public IActionResult Receiving(Models.Procurement.Main model)
+        {
+            var pModel = new Vendors();
+            model.partialView = "Receiving/Receiving";
+            model.partialModel = pModel;
+            model.partialVendors = pModel;
+
+            //send back the view
+            return View("Index", model);
+        }
+        
         public IActionResult Vendors(Models.Procurement.Main model)
         {
             var pModel = new Vendors();

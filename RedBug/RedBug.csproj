@@ -8,8 +8,9 @@
 
     <ItemGroup>
       <Folder Include="Models\Receiving\" />
-      <Folder Include="Models\Shipping\" />
       <Folder Include="Views\Receiving\" />
+      <Folder Include="Views\Warehousing\Inbound\" />
+      <Folder Include="Views\Warehousing\Outbound\" />
     </ItemGroup>
 
     <ItemGroup>

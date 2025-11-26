@@ -39,7 +39,7 @@ namespace RedBug.Controllers
             return View();
         }
         
-        public IActionResult Warehouse()
+        public IActionResult Warehousing()
         {
             return View();
         }

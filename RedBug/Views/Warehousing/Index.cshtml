@@ -1,0 +1,31 @@
+@using RedBug.Models.Warehousing
+@model Main
+@{
+    ViewBag.Title = "Procurement";
+    Layout = "_LayoutSideMenu";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 border-1 fa-border">
+            <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+                <ul id="listInbound" class="nav nav-pills flex-column mb-auto">
+                    <li>
+                        <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="PurchaseOrders">
+                            <span class="fa fa-barcode"></span>
+                            Inbound
+                        </a>
+                    </li>
+                </ul>
+                <ul id="listOutbound" class="nav nav-pills flex-column mb-auto">
+                    <li>
+                        <a class="nav-link link-dark" asp-area="" asp-controller="Procurement" asp-action="Vendors">
+                            <span class="fa fa-money-bill"></span>
+                            Outbound
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
