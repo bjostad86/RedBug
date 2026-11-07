@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBug", "RedBug\RedBug.csp
 EndProject
 Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "RedBugDb", "RedBugDb\RedBugDb.sqlproj", "{DE6A88AA-140C-45F0-A1FD-6745907FDC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBugExtensions", "RedBugExtensions\RedBugExtensions.csproj", "{215E03F7-D929-460B-A10D-C0CE368B2DB9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +18,5 @@ Global
 		{DE6A88AA-140C-45F0-A1FD-6745907FDC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6A88AA-140C-45F0-A1FD-6745907FDC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6A88AA-140C-45F0-A1FD-6745907FDC3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{215E03F7-D929-460B-A10D-C0CE368B2DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{215E03F7-D929-460B-A10D-C0CE368B2DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{215E03F7-D929-460B-A10D-C0CE368B2DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{215E03F7-D929-460B-A10D-C0CE368B2DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
