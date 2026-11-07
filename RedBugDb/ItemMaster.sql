@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[ItemMaster]
 (
-    [ItemId]        INT             NOT NULL PRIMARY KEY,
+    [ItemId]        INT             NOT NULL,
     [ItemNumber]    VARCHAR(50)     NOT NULL,
     [ItemTypeId]    INT             NOT NULL,
     [Description]   VARCHAR(200)    NOT NULL,

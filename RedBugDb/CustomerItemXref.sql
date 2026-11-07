@@ -14,7 +14,7 @@ CREATE TABLE [dbo].[CustomerItemXref]
     CONSTRAINT PK_CustomerItemXref PRIMARY KEY (CustomerItemXrefId),
     -- a customer maps a given item only once, and uses a customer part number only once
     CONSTRAINT UQ_CustomerItemXref_Customer_Item   UNIQUE (CustomerId, ItemId),
-    CONSTRAINT UQ_CustomerItemXref_Customer_Number UNIQUE (CustomerId, CustomerItemNumber),
+    CONSTRAINT UQ_CustomerItemXref_Customer_Number UNIQUE (CustomerId, ItemNumber),
     CONSTRAINT FK_CustomerItemXref_Customer FOREIGN KEY (CustomerId) REFERENCES dbo.Customer (CustomerId),
     CONSTRAINT FK_CustomerItemXref_ItemMaster FOREIGN KEY (ItemId) REFERENCES dbo.ItemMaster (ItemId)
 )

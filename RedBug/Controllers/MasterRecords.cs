@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using RedBug.Models.MasterRecords;
+using model = Common.Models.MasterRecords;
 
 namespace RedBug.Controllers
 {
@@ -7,7 +7,7 @@ namespace RedBug.Controllers
     {
         public IActionResult Index()
         {
-            var model = new Models.MasterRecords.MasterRecords
+            var model = new model.MasterRecords
             {
                 partialView = "",
                 partialModel = null
@@ -16,9 +16,9 @@ namespace RedBug.Controllers
             return View(model);
         }
         
-        public IActionResult Lots(Models.MasterRecords.MasterRecords model)
+        public IActionResult Lots(model.MasterRecords model)
         {
-            var pModel = new Lots();
+            var pModel = new model.Lots();
             model.partialView = "Inventory/Lots";
             model.partialModel = pModel;
             model.partialLots = pModel;
@@ -27,31 +27,31 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
 
-        public IActionResult Customers(Models.MasterRecords.MasterRecords model)
+        public IActionResult Customers(model.MasterRecords model)
         {
-            var pModel = new Customers();
+            var pModel = new model.Customer();
             model.partialView = "Customers/Customers";
             model.partialModel = pModel;
-            model.partialCustomers = pModel;
+            model.partialCustomer = pModel;
 
             //send back the view
             return View("Index", model);
         }
         
-        public IActionResult CustomerAddresses(Models.MasterRecords.MasterRecords model)
+        public IActionResult CustomerAddresses(model.MasterRecords model)
         {
-            var pModel = new Customers();
+            var pModel = new model.Customer();
             model.partialView = "Customers/Addresses";
             model.partialModel = pModel;
-            model.partialCustomers = pModel;
+            model.partialCustomer = pModel;
 
             //send back the view
             return View("Index", model);
         }
 
-        public IActionResult Items(Models.MasterRecords.MasterRecords model)
+        public IActionResult Items(model.MasterRecords model)
         {
-            var pModel = new Items();
+            var pModel = new model.Items();
             model.partialView = "Inventory/Items";
             model.partialModel = pModel;
             model.partialItems = pModel;
@@ -60,9 +60,9 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult ItemStructure(Models.MasterRecords.MasterRecords model)
+        public IActionResult ItemStructure(model.MasterRecords model)
         {
-            var pModel = new ItemStructures();
+            var pModel = new model.ItemStructures();
             model.partialView = "Inventory/ItemStructure";
             model.partialModel = pModel;
             model.partialItemStuctures = pModel;

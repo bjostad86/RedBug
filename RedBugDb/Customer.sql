@@ -43,5 +43,6 @@ CREATE TABLE [dbo].[Customer]
     [UpdatedAt]       DATETIME          NULL,
 
     CONSTRAINT PK_Customer PRIMARY KEY (CustomerId),
-    CONSTRAINT UQ_Customer_CustomerCode UNIQUE (CustomerCode)
+    CONSTRAINT UQ_Customer_CustomerCode UNIQUE (CustomerCode),
+    CONSTRAINT FK_Customer_CustomerType FOREIGN KEY (CustomerTypeId) REFERENCES dbo.CustomerType (CustomerTypeId)
 )

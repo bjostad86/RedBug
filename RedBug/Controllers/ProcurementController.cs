@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using RedBug.Models.Procurement;
+using Common.Models.Procurement;
 
 namespace RedBug.Controllers
 {
@@ -8,7 +8,7 @@ namespace RedBug.Controllers
         // GET
         public IActionResult Index()
         {
-            var model = new Models.Procurement.Main()
+            var model = new Common.Models.Procurement.Main()
             {
                 partialView = "",
                 partialModel = null
@@ -17,7 +17,7 @@ namespace RedBug.Controllers
             return View(model);
         }
         
-        public IActionResult Orders(Models.Procurement.Main model)
+        public IActionResult Orders(Common.Models.Procurement.Main model)
         {
             var pModel = new Vendors();
             model.partialView = "Orders/Orders";
@@ -28,7 +28,7 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult Receiving(Models.Procurement.Main model)
+        public IActionResult Receiving(Common.Models.Procurement.Main model)
         {
             var pModel = new Vendors();
             model.partialView = "Receiving/Receiving";
@@ -39,7 +39,7 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult Vendors(Models.Procurement.Main model)
+        public IActionResult Vendors(Common.Models.Procurement.Main model)
         {
             var pModel = new Vendors();
             model.partialView = "Vendors/Vendors";
@@ -50,7 +50,7 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult VendorTypes(Models.Procurement.Main model)
+        public IActionResult VendorTypes(Common.Models.Procurement.Main model)
         {
             var pModel = new VendorTypes();
             model.partialView = "Vendors/VendorTypes";
@@ -61,7 +61,7 @@ namespace RedBug.Controllers
             return View("Index", model);
         }
         
-        public IActionResult PurchaseOrders(Models.Procurement.Main model)
+        public IActionResult PurchaseOrders(Common.Models.Procurement.Main model)
         {
             var pModel = new PurchaseOrders();
             model.partialView = "PurchaseOrders/Orders";
@@ -77,7 +77,7 @@ namespace RedBug.Controllers
         {
             try
             {
-                var mrModel = new Models.Procurement.Main();
+                var mrModel = new Common.Models.Procurement.Main();
                 
                 if (ModelState.IsValid == false)
                 {
@@ -112,7 +112,7 @@ namespace RedBug.Controllers
         }
         
         [HttpPost]
-        public IActionResult Vendors(Models.Procurement.Main model, int id)
+        public IActionResult Vendors(Common.Models.Procurement.Main model, int id)
         {
             try
             {
@@ -128,7 +128,7 @@ namespace RedBug.Controllers
             }
         }
         
-        public IActionResult VendorAddresses(Models.Procurement.Main model)
+        public IActionResult VendorAddresses(Common.Models.Procurement.Main model)
         {
             var pModel = new VendorAddress();
             model.partialView = "Vendors/Addresses";

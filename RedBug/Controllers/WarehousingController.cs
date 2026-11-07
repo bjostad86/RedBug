@@ -7,7 +7,7 @@ public class WarehousingController : Controller
     // GET
     public IActionResult Index()
     {
-        var model = new Models.Warehousing.Main()
+        var model = new Common.Models.Warehousing.Main()
         {
             partialView = "",
             partialModel = null
