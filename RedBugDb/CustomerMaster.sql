@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[Customer]
+CREATE TABLE [dbo].[CustomerMaster]
 (
     [CustomerId]      INT IDENTITY(1,1) NOT NULL,
     [CustomerCode]    VARCHAR(20)       NOT NULL,   -- business key / account number
@@ -42,7 +42,7 @@ CREATE TABLE [dbo].[Customer]
     [CreatedAt]       DATETIME          NOT NULL CONSTRAINT DF_Customer_CreatedAt DEFAULT GETDATE(),
     [UpdatedAt]       DATETIME          NULL,
 
-    CONSTRAINT PK_Customer PRIMARY KEY (CustomerId),
-    CONSTRAINT UQ_Customer_CustomerCode UNIQUE (CustomerCode),
-    CONSTRAINT FK_Customer_CustomerType FOREIGN KEY (CustomerTypeId) REFERENCES dbo.CustomerType (CustomerTypeId)
+    CONSTRAINT PK_CustomerMaster PRIMARY KEY (CustomerId),
+    CONSTRAINT UQ_CustomerMaster_CustomerCode UNIQUE (CustomerCode),
+    CONSTRAINT FK_CustomerMaster_CustomerType FOREIGN KEY (CustomerTypeId) REFERENCES dbo.CustomerMasterType (CustomerTypeId)
 )

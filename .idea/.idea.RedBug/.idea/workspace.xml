@@ -15,69 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a0db1-9d7f-449f-be38-0607c0b2fde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/Models/Accounting/PriceCodes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Models/Controls/Currencies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccess/Items.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/BankMaster.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/CustomerLotXref.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/GlAccountMaster.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/LotMaster.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/VendorItemXref.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/VendorLotXref.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/VendorMaster.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedBugDb/VendorType.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RedBug/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/ProcurementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/ProcurementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Controllers/WarehousingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Controllers/WarehousingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/AccountingContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/ChartOfAccounts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Accounting/ChartOfAccounts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/Invoices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Accounting/Invoices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/InvoicesDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Accounting/InvoicesDetail.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/PriceCodes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Accounting/PriceGroups.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Accounting/PriceGroups.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Controls/ControlsContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Controls/Currencies.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Controls/TableLocks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Controls/TableLocks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/EDI/TradingPartners.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/ViewModels/ErrorViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Global/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Global/Controls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Global/GlobalContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Global/TranLog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Global/TranLog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Customers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/Customers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Divisions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/Divisions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/ItemStructures.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/ItemStructures.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Items.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/Items.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/Lots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/Lots.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/MasterRecords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/PaymentMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/PaymentMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/MasterRecords/TableMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/MasterRecords/TableMaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Orders/OrderComments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Orders/OrderComments.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Orders/OrderDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Orders/OrderDetail.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Orders/OrderHeader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Orders/OrderHeader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Orders/OrderTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Orders/OrderTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Orders/OrdersContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Procurement/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Procurement/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Procurement/ProcurementContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Procurement/PurchaseOrders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Procurement/PurchaseOrders.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Procurement/Vendors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Procurement/Vendors.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Security/Groups.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Security/Groups.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Security/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Security/Users.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Models/Warehousing/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Models/Warehousing/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/RedBug.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/RedBug.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Repository/MasterRecords/VendorMaster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers/Customers.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers/Customers.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/MasterRecords/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Procurement/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Procurement/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Procurement/PurchaseOrders/Orders.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Procurement/PurchaseOrders/Orders.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Procurement/PurchaseOrders/Receiving.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Procurement/PurchaseOrders/Receiving.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Procurement/Vendors/VendorTypes.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Procurement/Vendors/VendorTypes.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Procurement/Vendors/Vendors.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Procurement/Vendors/Vendors.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Shared/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/Warehousing/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/Warehousing/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBug/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RedBug/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBugDb/Customer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/Customer.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBug/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedBugDb/Customer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/CustomerMaster.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBugDb/CustomerItemXref.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/CustomerItemXref.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBugDb/CustomerType.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/CustomerType.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBugDb/ItemMaster.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/ItemMaster.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedBugDb/ItemType.sql" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/ItemType.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBugDb/RedBugDb.sqlproj" beforeDir="false" afterPath="$PROJECT_DIR$/RedBugDb/RedBugDb.sqlproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,91 +46,23 @@
     &quot;assignee&quot;: &quot;bjostad86&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bjostad86/RedBug.git",
-    "accountId": "cea35d83-8e19-42d7-9a71-af45fda97cf9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bjostad86/RedBug.git&quot;,
+    &quot;accountId&quot;: &quot;cea35d83-8e19-42d7-9a71-af45fda97cf9&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9d2f95d72fa884d8b6ddefc717c56da3657fbb2d5fb683656c3589eb6587/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/AccountingContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/ChartOfAccounts.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/Invoices.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/InvoicesDetail.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/PriceCodes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Accounting/PriceGroups.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Controls/ControlsContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Controls/Currencies.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Controls/TableLocks.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/EDI/TradingPartners.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Global/Controls.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Global/TranLog.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/Customers.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/Divisions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/ItemStructures.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/Items.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/Lots.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/MasterRecords.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/MasterRecordsContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/PaymentMethods.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/MasterRecords/TableMaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Models/Accounting/ChartOfAccounts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Models/Controls/Currencies.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Models/MasterRecords/Customers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Models/MasterRecords/MasterRecords.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Orders/OrderComments.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Orders/OrderDetail.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Orders/OrderHeader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Orders/OrderTypes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Orders/OrdersContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Procurement/Main.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Procurement/ProcurementContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Procurement/PurchaseOrders.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Procurement/Vendors.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Security/Groups.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Security/Users.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Warehousing/Main.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataAccess/Items.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/MasterRecords.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/MenusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/ProcurementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Controllers/WarehousingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/AccountingContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/ChartOfAccounts.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/Invoices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/InvoicesDetail.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/PriceCodes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Accounting/PriceGroups.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/ControlsContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/Currencies.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Controls/TableLocks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/EDI/TradingPartners.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Global/Controls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Global/GlobalContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Global/TranLog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/Customers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/Divisions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/ItemStructures.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/Items.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/Lots.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecords.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/MasterRecordsContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/PaymentMethods.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/MasterRecords/TableMaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Orders/OrderComments.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Orders/OrderDetail.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Orders/OrderHeader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Orders/OrderTypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Orders/OrdersContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Procurement/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Procurement/ProcurementContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Procurement/PurchaseOrders.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Procurement/Vendors.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Security/Groups.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Security/Users.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Models/Warehousing/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBug/Repository/MasterRecords/VendorMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Views/Accounting/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Views/Controls/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBug/Views/MasterRecords/Customers/Addresses.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -206,74 +88,77 @@
     <setting file="file://$PROJECT_DIR$/RedBug/Views/Warehousing/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/Customer.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/CustomerItemXref.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBugDb/CustomerLotXref.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/CustomerType.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/ItemMaster.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RedBugDb/ItemType.sql" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RedBugDb/Item_Master.sql" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBugDb/LotMaster.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBugDb/VendorItemXref.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBugDb/VendorMaster.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RedBugDb/VendorType.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000202" />
-      <entry key="S2" value="1.000376777386489" />
-      <entry key="S5" value="1.0427005955014281" />
-      <entry key="S10" value="1.206641224307325" />
-      <entry key="S30" value="1.5918125036332311" />
-      <entry key="S60" value="1.805894808015719" />
-      <entry key="M2" value="2.5197404617141728" />
-      <entry key="M5" value="9.438704594055647" />
-      <entry key="M10" value="25.572390156127437" />
-      <entry key="M15" value="40.031783479527164" />
-      <entry key="M30" value="71.1658682325233" />
-      <entry key="H1" value="103.83978551043438" />
-      <entry key="H2" value="129.84556279558183" />
-      <entry key="H4" value="146.70636126254618" />
-      <entry key="D1" value="163.34508104557685" />
-      <entry key="W1" value="166.47068912471525" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000022817" />
+      <entry key="S10" value="1.000001775000341" />
+      <entry key="S30" value="1.0180554901889336" />
+      <entry key="S60" value="1.2041650012913072" />
+      <entry key="M2" value="2.3894294761165735" />
+      <entry key="M5" value="11.675905721475743" />
+      <entry key="M10" value="27.519394352954816" />
+      <entry key="M15" value="41.724164154061214" />
+      <entry key="M30" value="79.74273297264666" />
+      <entry key="H1" value="132.05404871124318" />
+      <entry key="H2" value="182.42366907751554" />
+      <entry key="H4" value="219.01594728721395" />
+      <entry key="D1" value="258.0466417667365" />
+      <entry key="W1" value="265.694991873842" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.68112539316473E-100" />
-      <entry key="S5" value="3.3076401029265696E-40" />
-      <entry key="S10" value="3.7942899832000694E-20" />
-      <entry key="S30" value="1.553156221136444E-6" />
-      <entry key="S60" value="0.0053367124135098466" />
-      <entry key="M2" value="0.3676037495703936" />
-      <entry key="M5" value="5.170190217217801" />
-      <entry key="M10" value="12.877973707491918" />
-      <entry key="M15" value="17.554825250255057" />
-      <entry key="M30" value="24.01697538866686" />
-      <entry key="H1" value="28.135859220897775" />
-      <entry key="H2" value="30.466325379129163" />
-      <entry key="H4" value="31.706614158568176" />
-      <entry key="D1" value="32.780646379948934" />
-      <entry key="W1" value="32.96856960631741" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="9.623836950897896E-229" />
+      <entry key="S10" value="2.0466591581156746E-114" />
+      <entry key="S30" value="5.868405856723626E-38" />
+      <entry key="S60" value="1.0373523632460458E-18" />
+      <entry key="M2" value="5.125145306403641E-9" />
+      <entry key="M5" value="0.00372594999208416" />
+      <entry key="M10" value="0.34571067027114705" />
+      <entry key="M15" value="1.5738862600007677" />
+      <entry key="M30" value="7.191288791337829" />
+      <entry key="H1" value="15.39587550589309" />
+      <entry key="H2" value="22.536796345412508" />
+      <entry key="H4" value="27.270049091541953" />
+      <entry key="D1" value="31.967366111276686" />
+      <entry key="W1" value="32.85045881035183" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8766057213160351" />
-      <entry key="MS500" value="0.9740042685432423" />
-      <entry key="S2" value="0.9936281508438188" />
-      <entry key="S5" value="1.0299375305417877" />
-      <entry key="S10" value="1.1791500171785858" />
-      <entry key="S30" value="1.5652752998677728" />
-      <entry key="S60" value="1.793636483382151" />
-      <entry key="M2" value="2.872905071392904" />
-      <entry key="M5" value="14.58093544117176" />
-      <entry key="M10" value="38.4180388365431" />
-      <entry key="M15" value="57.55697327421177" />
-      <entry key="M30" value="95.16117866386706" />
-      <entry key="H1" value="131.96174144102267" />
-      <entry key="H2" value="160.3037842076128" />
-      <entry key="H4" value="178.40855804151457" />
-      <entry key="D1" value="196.12493175844241" />
-      <entry key="W1" value="199.439143477324" />
+      <entry key="MS100" value="7.318604426004523E-6" />
+      <entry key="MS500" value="0.09394759237909765" />
+      <entry key="S2" value="0.5536322922421425" />
+      <entry key="S5" value="0.7893844471961591" />
+      <entry key="S10" value="0.8884747367579567" />
+      <entry key="S30" value="0.9788198473100318" />
+      <entry key="S60" value="1.1813249897043707" />
+      <entry key="M2" value="2.372631256639405" />
+      <entry key="M5" value="11.663539873905881" />
+      <entry key="M10" value="27.848772170566985" />
+      <entry key="M15" value="43.28098448275062" />
+      <entry key="M30" value="86.91630329084123" />
+      <entry key="H1" value="147.4349300600149" />
+      <entry key="H2" value="204.9501742235557" />
+      <entry key="H4" value="246.27987161977666" />
+      <entry key="D1" value="290.01281713476084" />
+      <entry key="W1" value="298.5452758798901" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -299,11 +184,13 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "db-structure",
     "last_opened_file_path": "/home/ben/Downloads/jquery-3.7.1.min.js",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "SymbolServersPageId",
@@ -670,7 +557,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="db-structure" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
