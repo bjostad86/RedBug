@@ -3,7 +3,7 @@ CREATE TABLE dbo.VendorMaster (
     [VendorCode]      VARCHAR(20)       NOT NULL,   -- business key / account number
     [Name]            VARCHAR(200)      NOT NULL,
     [LegalName]       VARCHAR(200)      NULL,
-    [VendorType]      INT               NULL,       -- e.g. Supplier, Carrier, Service
+    [VendorTypeId]    INT               NULL,
 
     -- Primary contact
     [ContactName]     VARCHAR(100)      NULL,
@@ -39,6 +39,7 @@ CREATE TABLE dbo.VendorMaster (
     CONSTRAINT UQ_VendorMaster_VendorCode UNIQUE (VendorCode),
     CONSTRAINT FK_VendorMaster_VendorType FOREIGN KEY (VendorTypeId) REFERENCES dbo.VendorType (VendorTypeId)
 );
+GO
 
 CREATE INDEX IX_VendorMaster_Name ON dbo.VendorMaster (Name);
 GO

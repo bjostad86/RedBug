@@ -39,16 +39,19 @@ CREATE TABLE [dbo].[BankMaster]
     -- Status / audit
     [Notes]              NVARCHAR(MAX)     NULL,
     [IsActive]           BIT               NOT NULL CONSTRAINT DF_BankMaster_IsActive DEFAULT 1,
-    [CreatedAt]          DATETIME2         NOT NULL CONSTRAINT DF_BankMaster_CreatedAt DEFAULT SYSUTCDATETIME(),
+    [CreatedAt]          DATETIME2         NOT NULL CONSTRAINT DF_BankMaster_CreatedAt DEFAULT GETDATE(),
     [UpdatedAt]          DATETIME2         NULL,
 
     CONSTRAINT PK_BankMaster PRIMARY KEY (BankId),
     CONSTRAINT UQ_BankMaster_BankCode UNIQUE (BankCode),
     CONSTRAINT UQ_BankMaster_Routing_Account UNIQUE (RoutingNumber, AccountNumber),
     CONSTRAINT CK_BankMaster_AccountType CHECK (AccountType IN ('Checking', 'Savings', 'Money Market', 'Credit Line', 'Other'))
-);
+)
+GO
 
 -- Only one default bank account allowed
-CREATE UNIQUE INDEX UX_BankMaster_Default ON dbo.BankMaster (IsDefault) WHERE IsDefault = 1;
-CREATE INDEX IX_BankMaster_BankName ON dbo.BankMaster (BankName);
-)
+CREATE UNIQUE INDEX UX_BankMaster_Default ON dbo.BankMaster (IsDefault) WHERE IsDefault = 1
+GO
+
+CREATE INDEX IX_BankMaster_BankName ON dbo.BankMaster (BankName)
+GO

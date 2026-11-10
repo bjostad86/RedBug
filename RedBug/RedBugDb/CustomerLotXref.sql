@@ -9,10 +9,10 @@ CREATE TABLE [dbo].[CustomerLotXref]
     [CreatedAt]             DATETIME            NOT NULL CONSTRAINT DF_CustomerLotXref_CreatedAt    DEFAULT GETDATE(),
     [UpdatedAt]             DATETIME            NULL,
 
-    CONSTRAINT PK_CustomerLotXref PRIMARY KEY (CustomerItemXrefId),
-    -- a customer maps a given lot only once, and uses a customer lot number only once
-    CONSTRAINT UQ_CustomerLotXref_Customer_Item   UNIQUE (CustomerId, ItemId),
+    CONSTRAINT PK_CustomerLotXref PRIMARY KEY (CustomerLotXrefId),
+    CONSTRAINT UQ_CustomerLotXref_Customer_Lot   UNIQUE (CustomerId, LotId),
     CONSTRAINT UQ_CustomerLotXref_Customer_Number UNIQUE (CustomerId, LotNumber),
     CONSTRAINT FK_CustomerLotXref_Customer FOREIGN KEY (CustomerId) REFERENCES dbo.CustomerMaster (CustomerId),
-    CONSTRAINT FK_CustomerLotXref_ItemMaster FOREIGN KEY (LotId) REFERENCES dbo.LotMaster (LotId)
+    CONSTRAINT FK_CustomerLotXref_LotMaster FOREIGN KEY (LotId) REFERENCES dbo.LotMaster (LotId)
 )
+GO;

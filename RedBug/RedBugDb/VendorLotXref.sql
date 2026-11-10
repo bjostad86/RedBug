@@ -10,8 +10,7 @@ CREATE TABLE [dbo].[VendorLotXref]
     [UpdatedAt]           DATETIME            NULL,
 
     CONSTRAINT PK_VendorLotXref PRIMARY KEY (VendorLotXrefId),
-    -- a vendor maps a given lot only once, and uses a vendor lot number only once
-    CONSTRAINT UQ_VendorLotXref_Vendor_Item   UNIQUE (VendorId, ItemId),
+    CONSTRAINT UQ_VendorLotXref_Vendor_Lot   UNIQUE (VendorId, LotId),
     CONSTRAINT UQ_VendorLotXref_Vendor_Number UNIQUE (VendorId, LotNumber),
     CONSTRAINT FK_VendorLotXref_Vendor FOREIGN KEY (VendorId) REFERENCES dbo.VendorMaster (VendorId),
     CONSTRAINT FK_VendorLotXref_LotMaster FOREIGN KEY (LotId) REFERENCES dbo.LotMaster (LotId)

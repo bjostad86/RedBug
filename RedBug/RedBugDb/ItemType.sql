@@ -8,3 +8,4 @@ CREATE TABLE [dbo].[ItemType]
     CONSTRAINT PK_ItemType PRIMARY KEY (ItemTypeId),
     CONSTRAINT UQ_ItemType_TypeCode UNIQUE (ItemType)
 )
+GO

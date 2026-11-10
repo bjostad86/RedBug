@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[LotMaster]
     [RetestDate]        DATE                NULL,
  
     -- Quantities (in the item's unit of measure)
-    [UnitOfMeasure]     VARCHAR(10)         NOT NULL CONSTRAINT DF_LotMaster_UOM DEFAULT 'EA',
+    [UOM]     VARCHAR(10)         NOT NULL CONSTRAINT DF_LotMaster_UOM DEFAULT 'EA',
     [QuantityReceived]  DECIMAL(18,4)       NOT NULL CONSTRAINT DF_LotMaster_QtyReceived DEFAULT 0,
     [QuantityOnHand]    DECIMAL(18,4)       NOT NULL CONSTRAINT DF_LotMaster_QtyOnHand DEFAULT 0,
  
@@ -42,8 +42,16 @@ CREATE TABLE [dbo].[LotMaster]
     CONSTRAINT CK_LotMaster_Qty CHECK (QuantityReceived >= 0 AND QuantityOnHand >= 0),
     CONSTRAINT CK_LotMaster_Dates CHECK (ExpirationDate IS NULL OR ManufactureDate IS NULL OR ExpirationDate >= ManufactureDate)
 );
+GO;
 
 CREATE INDEX IX_LotMaster_ItemId         ON dbo.LotMaster (ItemId);
+GO;
+
 CREATE INDEX IX_LotMaster_VendorId       ON dbo.LotMaster (VendorId) WHERE VendorId IS NOT NULL;
+GO;
+
 CREATE INDEX IX_LotMaster_ExpirationDate ON dbo.LotMaster (ExpirationDate) WHERE ExpirationDate IS NOT NULL;
+GO;
+
 CREATE INDEX IX_LotMaster_VendorLot      ON dbo.LotMaster (VendorLotNumber) WHERE VendorLotNumber IS NOT NULL;
+GO;

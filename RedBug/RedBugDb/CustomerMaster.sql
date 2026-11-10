@@ -44,5 +44,6 @@ CREATE TABLE [dbo].[CustomerMaster]
 
     CONSTRAINT PK_CustomerMaster PRIMARY KEY (CustomerId),
     CONSTRAINT UQ_CustomerMaster_CustomerCode UNIQUE (CustomerCode),
-    CONSTRAINT FK_CustomerMaster_CustomerType FOREIGN KEY (CustomerTypeId) REFERENCES dbo.CustomerMasterType (CustomerTypeId)
+    CONSTRAINT FK_CustomerMaster_CustomerType FOREIGN KEY (CustomerTypeId) REFERENCES dbo.CustomerType (CustomerTypeId)
 )
+GO;

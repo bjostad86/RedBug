@@ -18,3 +18,4 @@ CREATE TABLE [dbo].[CustomerItemXref]
     CONSTRAINT FK_CustomerItemXref_Customer FOREIGN KEY (CustomerId) REFERENCES dbo.CustomerMaster (CustomerId),
     CONSTRAINT FK_CustomerItemXref_ItemMaster FOREIGN KEY (ItemId) REFERENCES dbo.ItemMaster (ItemId)
 )
+GO;
